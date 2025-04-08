@@ -103,18 +103,6 @@ public class VBoxRoot extends VBox  implements ConstantesCalendrier {
             }
         });
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
     public void moving(StackPane tmp,String mois){
