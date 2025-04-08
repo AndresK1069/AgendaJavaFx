@@ -33,6 +33,7 @@ build/
 
 ### VS Code ###
 .vscode/
+*.drawio
 
 ### Mac OS ###
 .DS_Store

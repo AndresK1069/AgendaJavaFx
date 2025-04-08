@@ -4,14 +4,17 @@ import javafx.event.EventHandler;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.TilePane;
+import javafx.scene.layout.VBox;
 
 import java.awt.event.ActionEvent;
 
-public class NewCalendrier implements ConstantesCalendrier {
+public class NewCalendrier  extends VBox implements ConstantesCalendrier {
 
     public NewCalendrier() {
         Date today = new Date();
+        StackPane stackPaneMois = new StackPane();
         ToggleGroup buttonGroup = new ToggleGroup();
         for (int numMois = 1; numMois<=12 ; numMois++){
             CalendrierDuMois monthCalendar = new CalendrierDuMois(numMois,today.getAnnee());
@@ -31,7 +34,7 @@ public class NewCalendrier implements ConstantesCalendrier {
             boutonDate.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
                 public void handle(ActionEvent event) {
-                    ............................
+                    if("current mois != different du mois alles au mois");
                 }
             });
             if (date.getMois() != monthCalendar.getDates()){
