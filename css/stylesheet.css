@@ -1,8 +1,21 @@
 #today {
-    -fx-text-fill: coral;
+    -fx-text-fill: #8eec81;
 }
 
 .scroll-pane {
     -fx-background-color: #ddf5ee;
     -fx-border-color: #5F9EA0;
 }
+
+#opaque {
+    -fx-background-color: white;
+}
+
+.toggle-button{
+    -fx-background-color: white;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #7492ef;
+}
+
